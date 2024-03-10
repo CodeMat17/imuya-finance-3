@@ -2,6 +2,10 @@ import ThemeToggleButton from "@/components/ThemeToggleButton";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
+import { Rubik_Marker_Hatch } from "next/font/google";
+
+const rmh = Rubik_Marker_Hatch({ subsets: ["latin"], weight: '400' });
+
 
 export default function Home() {
   return (
@@ -11,9 +15,10 @@ export default function Home() {
       </div>
       <div className='py-12 md:py-20 flex flex-col md:flex-row items-center justify-center gap-8 lg:gap-20'>
         <div className='w-full max-w-xl flex flex-col items-center justify-center text-center'>
-          <h1 className='text-4xl lg:text-5xl font-semibold'>
+          <div className={rmh.className}> <h1 className='text-4xl lg:text-5xl font-semibold'>
             This is the official IMUYA Finance Portal
-          </h1>
+          </h1></div>
+         
           <h3 className='mb-3 text-lg text-gray-400'>
             Our online finance database
           </h3>
