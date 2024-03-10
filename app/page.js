@@ -20,7 +20,7 @@ export default function Home() {
           </h1></div>
          
           <h3 className='mb-3 text-lg text-gray-400'>
-            Our online finance database
+            The online finance database
           </h3>
           <div className='pt-3'>
              <Button asChild>
