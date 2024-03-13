@@ -7,11 +7,11 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "IMUYA FINANCE PORTAL",
   description:
-    "This is the official IMUYA finance portal. Our online finance database.",
+    "This is the official IMUYA finance portal. The online finance database.",
   openGraph: {
     title: "IMUYA FINANCE PORTAL",
     description:
-      "This is the official IMUYA finance portal. Our online finance database.",
+      "This is the official IMUYA finance portal. The online finance database.",
     author: ["Matthew Chukwu"],
     developer: ["Matthew Chukwu"],
     url: "https://imuya-finance.vercel.app",
