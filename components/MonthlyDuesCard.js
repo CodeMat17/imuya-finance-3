@@ -45,10 +45,11 @@ const MonthlyDuesCard = ({
     <div className='py-2 w-full max-w-md mx-auto'>
       {/* ============= */}
       <Drawer>
-        <DrawerTrigger>{name}</DrawerTrigger>
+        <DrawerTrigger className="uppercase">{name}</DrawerTrigger>
         <DrawerContent>
           <DrawerHeader>
-            <DrawerTitle className='text-center'>{name} has paid for:</DrawerTitle>
+            <DrawerTitle className='text-center'>
+             <span className="uppercase">{name}</span> paid for:</DrawerTitle>
             <DrawerDescription>
               <div className="pt-4 w-full max-w-md mx-auto">
                 <p
