@@ -37,7 +37,7 @@ export default function Home() {
       <div className='md:mt-12 mb-6 md:mb-0 w-full flex flex-col justify-center items-center'>
         <p className='font-semibold'>ACCOUNT DETAIL</p>
         <div className='mt-1 text-xs text-gray-600  dark:text-gray-400 flex gap-5'>
-          <p>Account No: 1234567890</p>
+          <p>Account No: 3119163639</p>
           <p>Accout Name: Mbah Chukwuma</p>
           <p>Bank: FirstBank</p>
         </div>
