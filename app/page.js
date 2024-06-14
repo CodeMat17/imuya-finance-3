@@ -1,5 +1,5 @@
-import ThemeToggleButton from "@/components/ThemeToggleButton";
-import { Button } from "@/components/ui/button";
+import ThemeToggleButton from "../components/ThemeToggleButton";
+import { Button } from "../components/ui/button";
 import { Rubik_Marker_Hatch } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
