@@ -1,10 +1,6 @@
 {
   "compilerOptions": {
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
@@ -23,12 +19,11 @@
     ]
   },
   "include": [
-    "next-env.d.ts",
+    // "next-env.d.ts",
     ".next/types/**/*.ts",
-    "**/*.ts",
-    "**/*.tsx"
-, "app/api/cron/route.js"  ],
-  "exclude": [
-    "node_modules"
-  ]
+    "**/*.js",
+    // "**/*.tsx",
+    "app/api/cron/route.js"
+  ],
+  "exclude": ["node_modules"]
 }
