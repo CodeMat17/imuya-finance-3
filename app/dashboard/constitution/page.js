@@ -1,6 +1,6 @@
-import ConstitutionCard from "@/components/ConstitutionCard";
-import PageTitle from "@/components/PageTitle";
-import { createClient } from "@/lib/supabase/server";
+import ConstitutionCard from "../../../components/ConstitutionCard";
+import PageTitle from "../../../components/PageTitle";
+import { createClient } from "../../../lib/supabase/server";
 
 const Constitution = async () => {
   const supabase = createClient();

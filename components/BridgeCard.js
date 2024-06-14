@@ -3,7 +3,7 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion";
+} from "../components/ui/accordion";
 import dayjs from "dayjs";
 
 const BridgeCard = ({ id, name, amount, status, created_at }) => {

@@ -1,6 +1,6 @@
-import BridgeCard from "@/components/BridgeCard";
-import PageTitle from "@/components/PageTitle";
-import { createClient } from "@/lib/supabase/server";
+import BridgeCard from "../../../components/BridgeCard";
+import PageTitle from "../../../components/PageTitle";
+import { createClient } from "../../../lib/supabase/server";
 
 const BridgeRepairs = async () => {
   const supabase = createClient();

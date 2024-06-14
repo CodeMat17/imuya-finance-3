@@ -1,6 +1,6 @@
-import MonthlyDuesCard from "@/components/MonthlyDuesCard";
-import PageTitle from "@/components/PageTitle";
-import { createClient } from "@/lib/supabase/server";
+import MonthlyDuesCard from "../../../components/MonthlyDuesCard";
+import PageTitle from "../../../components/PageTitle";
+import { createClient } from "../../../lib/supabase/server";
 
 const MonthlyDues = async () => {
   const supabase = createClient();

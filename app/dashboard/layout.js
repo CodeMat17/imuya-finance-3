@@ -1,5 +1,5 @@
-import HeaderNav from '@/components/HeaderNav';
-import Nav from '@/components/Nav';
+import HeaderNav from '../../components/HeaderNav';
+import Nav from '../..//components/Nav';
 import Image from 'next/image';
 import React from 'react'
 

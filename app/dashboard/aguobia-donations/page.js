@@ -1,6 +1,6 @@
-import AguobiaCard from "@/components/AguobiaCard";
-import PageTitle from "@/components/PageTitle";
-import { createClient } from "@/lib/supabase/server";
+import AguobiaCard from "../../../components/AguobiaCard";
+import PageTitle from "../../../components/PageTitle";
+import { createClient } from "../../../lib/supabase/server";
 
 const Aguobia = async () => {
  const supabase = createClient();

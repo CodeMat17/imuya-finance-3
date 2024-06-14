@@ -3,7 +3,7 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion";
+} from "../components/ui/accordion";
 
 const ConstitutionCard = ({ id, name, amount, status }) => {
   const NairaAmount = new Intl.NumberFormat("en-NG", {
