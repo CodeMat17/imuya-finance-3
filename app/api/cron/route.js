@@ -7,23 +7,14 @@ export async function GET(req) {
   console.log("Starting GET request");
   try {
     // Ping the Supabase endpoint to keep it active
-    const { data, error } = await supabase
-      .from("monthlydues")
-      .select("*")
-      .limit(1);
-
-    if (error) {
-      console.error("Error fetching data:", error.message);
-      return NextResponse.json({ error: error.message }, { status: 500 });
-    }
-
-      console.log("Data fetched successfully:", data);
-    return NextResponse.json({ users: data }, { status: 200 });
+    await Promise.all([
+      supabase.from("aguobia").select("id"),
+      supabase.from("bridge").select("id"),
+      supabase.from("constitution").select("id"),
+      supabase.from("monthlydues").select("id"),
+    ]);
+      return NextResponse.json({ message: "Keeping backend awake..." });
   } catch (error) {
-      console.error("Caught error:", error.message);
-    return NextResponse.json(
-      { error: (error).message },
-      { status: 500 }
-    );
+       return NextResponse.json({ error: error }, { status: 500 });
   }
 }
